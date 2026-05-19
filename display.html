@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>薪火传承｜成交播报</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="public-page">
+    <main class="public-shell">
+      <section class="live-screen public-screen" aria-label="成交播报展示">
+        <div class="screen-top">
+          <div>
+            <p class="eyebrow light">现场实时动态</p>
+            <h1>薪火传承成交播报</h1>
+          </div>
+          <div class="counter">
+            <span id="totalOrders">0</span>
+            <small>累计成交单</small>
+          </div>
+        </div>
+
+        <div class="hero-strip">
+          <div>
+            <strong>报名与成交动态实时滚动</strong>
+            <span>现场信息脱敏展示，保护客户隐私</span>
+          </div>
+        </div>
+
+        <div class="ticker-wrap">
+          <div class="ticker fast" id="ticker"></div>
+        </div>
+
+        <div class="stats-row">
+          <div>
+            <span id="cityCount">0</span>
+            <small>覆盖地区</small>
+          </div>
+          <div>
+            <span id="buyerCount">0</span>
+            <small>成交客户</small>
+          </div>
+          <div>
+            <span id="latestTime">--</span>
+            <small>最新成交</small>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
